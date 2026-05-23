@@ -1,0 +1,29 @@
+# Core deep learning framework
+# TensorFlow includes Keras as its high-level API
+tensorflow==2.20.0
+
+# Standard dataset access for EMNIST and other benchmark datasets
+tensorflow-datasets==4.9.6
+
+# Numerical computing - used for array manipulation throughout
+numpy==1.26.4
+
+# Image processing - used in Grad-CAM for resizing heatmaps and applying colormaps
+# headless variant has no GUI dependencies, suitable for servers and Colab
+opencv-python-headless==4.9.0.80
+
+# Plotting and visualization
+matplotlib==3.9.0
+
+# Statistical data visualization - used for confusion matrix heatmaps
+seaborn==0.13.2
+
+# Metrics: confusion matrix, classification report
+scikit-learn==1.5.0
+
+# Reading training log CSV files for plotting learning curves
+pandas==2.2.2
+
+# Jupyter notebook support (needed if running locally, already present in Colab)
+notebook==7.2.0
+ipykernel==6.29.4
